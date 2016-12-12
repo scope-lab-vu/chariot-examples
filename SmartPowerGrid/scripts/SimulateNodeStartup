@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Start total of 9 nodes for simplest possible simulation.
+SimulateNodeActivity -n pmu_z1_1 -t default_pmu_z1 -p 7001 -a start
+SimulateNodeActivity -n pmu_z2_1 -t default_pmu_z2 -p 7002 -a start
+SimulateNodeActivity -n pmu_z3_1 -t default_pmu_z3 -p 7003 -a start
+SimulateNodeActivity -n breaker_z1_1 -t default_breaker_z1 -p 7004 -a start
+SimulateNodeActivity -n breaker_z2_1 -t default_breaker_z2 -p 7005 -a start
+SimulateNodeActivity -n breaker_z3_1 -t default_breaker_z3 -p 7006 -a start
+SimulateNodeActivity -n ied_z1_1 -t default_ied_z1 -p 7007 -a start
+SimulateNodeActivity -n ied_z2_1 -t default_ied_z2 -p 7008 -a start
+SimulateNodeActivity -n ied_z3_1 -t default_ied_z3 -p 7009 -a start
