@@ -31,5 +31,8 @@ package edu.vanderbilt.isis.chariot.helloworld {
 				print ("Time - ", curr_time)
 			'
 		}
+		
+		requires 512 MB memory
+		requires 1024 MB storage
 	}	
 }

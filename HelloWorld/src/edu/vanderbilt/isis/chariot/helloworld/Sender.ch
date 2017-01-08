@@ -22,5 +22,7 @@ package edu.vanderbilt.isis.chariot.helloworld {
 				send (send_port, msg)				
 			'
 		}
+		
+		requires 512 MB memory
 	}	
 }
