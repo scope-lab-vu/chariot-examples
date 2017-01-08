@@ -8,8 +8,6 @@ package edu.vanderbilt.isis.chariot.smartparkingbasic {
  		}
  		
  		requires 256 MB memory
- 		requires Linux
- 		requires LCM
  		
  		startScript "sh ParkingManager.sh"
  	}
