@@ -1,5 +1,7 @@
 # Introduction
 
+**Pre-req**: Please visit [this](https://github.com/visor-vu/chariot) repository before advancing below to install the design-time and runtime artifacts.
+
 This repository contains examples of different systems modeled using the [CHARIOT-ML](https://github.com/visor-vu/chariot) (Modeling Language). Following list summarizes these examples:
 
 1. **HelloWorld**: This example models a simple two objective system without any replication constraints. Instantiation of this system results in deployment of three components, each of different type; one component that periodically sends greeting message, another component that receives greeting message and queries for time after receiving each message, and another component that acts as a time server by serving synchronous time requests.
