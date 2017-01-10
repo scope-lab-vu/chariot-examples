@@ -1,5 +1,5 @@
-import edu.vanderbilt.isis.chariot.smartparkingiotpaper.*
-package edu.vanderbilt.isis.chariot.smartparkingiotpaper {
+import edu.vanderbilt.isis.chariot.smartparkingcomplex.*
+package edu.vanderbilt.isis.chariot.smartparkingcomplex {
 	nodeCategory CameraNode {
 		// Template for Wi-Fi enabled (wireless IP) 
 		// camera nodes.

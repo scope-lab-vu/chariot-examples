@@ -1,5 +1,5 @@
-import edu.vanderbilt.isis.chariot.smartparkingiotpaper.*
-package edu.vanderbilt.isis.chariot.smartparkingiotpaper {
+import edu.vanderbilt.isis.chariot.smartparkingcomplex.*
+package edu.vanderbilt.isis.chariot.smartparkingcomplex {
 	goalDescription SmartParking {
 		// Objectives.
 		client_interaction as objective ClientInteraction

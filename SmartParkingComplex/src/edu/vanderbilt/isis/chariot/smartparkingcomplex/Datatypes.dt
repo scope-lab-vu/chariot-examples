@@ -1,4 +1,4 @@
-package edu.vanderbilt.isis.chariot.smartparkingiotpaper {
+package edu.vanderbilt.isis.chariot.smartparkingcomplex {
 	// Data type used for making parking request.
 	struct parking_request_t {
 		long client_id

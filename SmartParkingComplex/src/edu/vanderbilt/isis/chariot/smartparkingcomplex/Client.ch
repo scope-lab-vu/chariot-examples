@@ -1,5 +1,5 @@
-import edu.vanderbilt.isis.chariot.smartparkingiotpaper.*
-package edu.vanderbilt.isis.chariot.smartparkingiotpaper {
+import edu.vanderbilt.isis.chariot.smartparkingcomplex.*
+package edu.vanderbilt.isis.chariot.smartparkingcomplex {
 	hardware component Client{
  		provides parking_client{
  			parking_response_t as parking_client.parking_response

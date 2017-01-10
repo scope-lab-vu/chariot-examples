@@ -1,5 +1,5 @@
-import edu.vanderbilt.isis.chariot.smartparkingiotpaper.*
-package edu.vanderbilt.isis.chariot.smartparkingiotpaper {
+import edu.vanderbilt.isis.chariot.smartparkingcomplex.*
+package edu.vanderbilt.isis.chariot.smartparkingcomplex {
 	hardware component ImageCapture{
  		provides image_capture {
  			detector_response_t as image_capture.detector_response

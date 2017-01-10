@@ -1,4 +1,4 @@
-package edu.vanderbilt.isis.chariot.smartparkingiotpaper {
+package edu.vanderbilt.isis.chariot.smartparkingcomplex {
 	// Client functionality with input and output port to interact with 
 	// parking manager functionality.
 	functionality parking_client {

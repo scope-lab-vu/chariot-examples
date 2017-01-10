@@ -1,5 +1,5 @@
-import edu.vanderbilt.isis.chariot.smartparkingiotpaper.*
-package edu.vanderbilt.isis.chariot.smartparkingiotpaper {
+import edu.vanderbilt.isis.chariot.smartparkingcomplex.*
+package edu.vanderbilt.isis.chariot.smartparkingcomplex {
 	component LoadBalancer {
  		provides load_balancer {
  			detector_request_t as load_balancer.detector_request
