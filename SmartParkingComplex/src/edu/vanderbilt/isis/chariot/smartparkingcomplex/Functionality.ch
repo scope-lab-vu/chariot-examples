@@ -47,9 +47,9 @@ package edu.vanderbilt.isis.chariot.smartparkingcomplex {
 		occupancy_detector.occupancy_status to parking_manager.occupancy_status
 	}
 	
-	// A composition that captures interaction between parking client and
-	// parking manager functionalities.
-	composition client_interaction {
+	// A composition that captures request/response interaction between parking 
+	// client and parking manager functionalities.
+	composition request_handling {
 		parking_client.parking_request to parking_manager.parking_request
 		parking_manager.parking_response to parking_client.parking_response
 	}

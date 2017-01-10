@@ -2,7 +2,7 @@ import edu.vanderbilt.isis.chariot.smartparkingcomplex.*
 package edu.vanderbilt.isis.chariot.smartparkingcomplex {
 	goalDescription SmartParking {
 		// Objectives.
-		client_interaction as objective ClientInteraction
+		request_handling as objective RequestHandling
 		occupancy_checking as objective OccupancyChecking
 		
 		// Replication constraints.
