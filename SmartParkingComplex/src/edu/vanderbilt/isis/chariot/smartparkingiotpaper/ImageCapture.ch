@@ -7,6 +7,8 @@ package edu.vanderbilt.isis.chariot.smartparkingiotpaper {
  			image_t as image_capture.image
  		}
  		
+ 		requires 32 MB memory
+ 		
  		startScript "sh ImageCapture.sh"
  	}
 }

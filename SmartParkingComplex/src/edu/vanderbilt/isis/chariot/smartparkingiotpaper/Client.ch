@@ -6,6 +6,8 @@ package edu.vanderbilt.isis.chariot.smartparkingiotpaper {
  			parking_request_t as parking_client.parking_request
  		}
  		
+ 		requires 64 MB memory
+ 		
  		startScript "sh Client.sh"
  	}
 }

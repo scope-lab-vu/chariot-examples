@@ -4,7 +4,7 @@ package edu.vanderbilt.isis.chariot.smartparkingiotpaper {
 		// Template for Wi-Fi enabled (wireless IP) 
 		// camera nodes.
 		nodeTemplate wifi_cam {
-			memory 32 MB
+			memory 64 MB
 			storage 1024 MB 	// 1 GB external
 		}
 	}
@@ -18,9 +18,9 @@ package edu.vanderbilt.isis.chariot.smartparkingiotpaper {
 	}
 	
 	nodeCategory TerminalNode {	
-		// Template for entry termial nodes.
+		// Template for entry terminal nodes.
 		nodeTemplate entry_terminal {
-			memory 1024 MB		// 1 GB
+			memory 128 MB
 			storage 8192 MB		// 8 GB
 		}
 	}
