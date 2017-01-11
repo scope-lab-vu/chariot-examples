@@ -1,0 +1,66 @@
+package edu.vanderbilt.isis.chariot.imagingsatellitecluster {
+	// Struct used to represent ground command.
+	struct ground_command_t { 
+		long com_id
+		String command
+		 
+	}
+	
+	struct encoded_ground_command_t {
+		long com_id
+		String command
+	}
+	
+	struct sat_state_request_t {
+		String uuid
+	}
+
+	// Struct used to represent state of a satellite. 
+	struct sat_state_t {
+		String uuid
+		String sat_id
+		double alt
+		double rpos_x
+		double rpos_y
+		double rpos_z
+		double rvel_x
+		double rvel_y
+		double rvel_z
+		double vrot_x
+		double vrot_y
+		double vrot_z
+	}
+	
+	// Struct used to represent satellite thruster 
+	// control command.
+	struct thruster_control_t {
+		long thruster_id
+		double amount
+		double duration
+	}
+
+	// Struct used to represent target orbit
+	// position.
+	struct target_orbit_t {
+		long sat_id
+		double x
+		double y
+		double z
+	}
+
+	/*
+	 *  Struct used to represent high resolution image vector
+	 */
+	struct hr_image_t {
+		String img_id
+		String img
+	}
+
+	/*
+	 *  Struct used to represent low resolution image vector
+	 */
+	struct lr_image_t {
+		String img_id
+		String img
+	}
+} 
