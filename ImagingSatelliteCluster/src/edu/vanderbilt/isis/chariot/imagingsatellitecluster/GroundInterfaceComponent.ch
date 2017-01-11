@@ -5,7 +5,7 @@ package edu.vanderbilt.isis.chariot.imagingsatellitecluster {
 			encoded_ground_command_t as ground_interface.encoded_ground_command
 			ground_command_t as ground_interface.gound_command_sender
 		}
-			
-		startScript "sh GroundInterfaceComponent.sh" 
+		
+		requires 64 MB memory
 	}
 }

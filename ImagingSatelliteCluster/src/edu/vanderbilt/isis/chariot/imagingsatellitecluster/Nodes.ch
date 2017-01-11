@@ -14,8 +14,15 @@ package edu.vanderbilt.isis.chariot.imagingsatellitecluster {
 	
 	nodeCategory SimpleSatellite {
 		nodeTemplate default_simple_satellite {
-			memory 1024 GB
+			memory 1024 MB
 			storage 2048 MB
+		}
+	}
+	
+	nodeCategory GroundStation {
+		nodeTemplate default_ground_station {
+			memory 4096 MB
+			storage 8192 MB
 		}
 	}
 }

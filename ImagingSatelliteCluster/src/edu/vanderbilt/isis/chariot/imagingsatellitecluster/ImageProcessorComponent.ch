@@ -6,6 +6,8 @@ package edu.vanderbilt.isis.chariot.imagingsatellitecluster {
 			hr_image_t as image_processor.high_resolution_image_receiver
 		}
 		
+		requires 1024 MB memory
+		requires 2048 MB storage
 		requires ImagingSatellite.default_imaging_satellite.gpu device
 	}
 }

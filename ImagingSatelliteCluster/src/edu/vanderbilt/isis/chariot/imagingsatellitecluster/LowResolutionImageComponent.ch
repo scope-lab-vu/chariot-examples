@@ -5,6 +5,7 @@ package edu.vanderbilt.isis.chariot.imagingsatellitecluster {
 			lr_image_t as low_resolution_image_capture.low_resolution_image_sender
 		}
 		
+		requires 256 MB memory
 		requires ImagingSatellite.default_imaging_satellite.lr_camera device
 	}
 }

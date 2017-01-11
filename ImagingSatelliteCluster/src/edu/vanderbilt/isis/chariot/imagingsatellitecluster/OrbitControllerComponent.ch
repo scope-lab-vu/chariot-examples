@@ -8,5 +8,7 @@ package edu.vanderbilt.isis.chariot.imagingsatellitecluster {
 			target_orbit_t as orbit_controller.target_orbit_receiver
 			thruster_control_t as orbit_controller.thruster_control_sender
 		}
+		
+		requires 64 MB memory
 	}
 }

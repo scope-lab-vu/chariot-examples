@@ -6,5 +6,7 @@ package edu.vanderbilt.isis.chariot.imagingsatellitecluster {
 			ground_command_t as trajectory_planner.ground_command_receiver
 			target_orbit_t as trajectory_planner.target_orbit_sender	
 		}
+		
+		requires 256 MB memory
 	}
 }

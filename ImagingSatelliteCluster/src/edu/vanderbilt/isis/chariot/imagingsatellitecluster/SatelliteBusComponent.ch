@@ -6,5 +6,7 @@ package edu.vanderbilt.isis.chariot.imagingsatellitecluster {
 			sat_state_t as satellite_bus.sat_state_response
 			thruster_control_t as satellite_bus.thruster_control_receiver	
 		}
+		
+		requires 64 MB memory
 	}
 }

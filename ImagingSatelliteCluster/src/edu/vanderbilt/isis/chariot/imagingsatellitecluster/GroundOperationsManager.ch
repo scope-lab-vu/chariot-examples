@@ -5,6 +5,6 @@ import edu.vanderbilt.isis.chariot.imagingsatellitecluster.*
  			ground_command_t as ground_manager.ground_command
  		}
  		
- 		startScript "sh GroundOperationsManager.sh" 
+ 		requires 256 MB memory
  	}
  }
