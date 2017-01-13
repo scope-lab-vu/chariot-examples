@@ -1,6 +1,6 @@
 import edu.vanderbilt.isis.chariot.imagingsatellitecluster.*
 package edu.vanderbilt.isis.chariot.imagingsatellitecluster {
-	component HighResolutionImageComponent {
+	component HighResolutionImageGrabberComponent {
 		provides high_resolution_image_capture {
 			hr_image_t as high_resolution_image_capture.high_resolution_image_sender
 		}

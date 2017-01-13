@@ -1,6 +1,6 @@
 import edu.vanderbilt.isis.chariot.imagingsatellitecluster.*
 package edu.vanderbilt.isis.chariot.imagingsatellitecluster {
-	component LowResolutionImageComponent {
+	component LowResolutionImageGrabberComponent {
 		provides low_resolution_image_capture {
 			lr_image_t as low_resolution_image_capture.low_resolution_image_sender
 		}
