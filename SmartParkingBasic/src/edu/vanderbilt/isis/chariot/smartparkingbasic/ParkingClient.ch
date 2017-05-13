@@ -8,6 +8,6 @@ package edu.vanderbilt.isis.chariot.smartparkingbasic {
 		
  		requires 64 MB memory
  		
- 		startScript "sh ParkingClient.sh"
+ 		startScript "sh chariot.sh"
  	}
 }

@@ -6,6 +6,6 @@ package edu.vanderbilt.isis.chariot.smartparkingbasic {
 		occupancy_checking as objective OccupancyChecking
 		
 		replicate occupancy_sensor asPerNode for category EdgeNode		
-		replicate parking_manager asVoterCluster with [3,5] instances and ParkingManagerVoter
+		//replicate parking_manager asVoterCluster with [3,5] instances and ParkingManagerVoter
 	}
 }

@@ -7,8 +7,8 @@ package edu.vanderbilt.isis.chariot.smartparkingbasic {
  		}
  		
  		requires 128 MB memory
- 		requires EdgeNode.Edison.ultrasonic_ranger device
+ 		requires EdgeNode.BBB.ultrasonic_ranger device
  		
- 		startScript "sh OccupancySensor.sh"
+ 		startScript "sh chariot.sh"
  	}
 }
